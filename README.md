@@ -528,44 +528,8 @@ echo 'SELECT 1' | java -jar target/doris-sql-parser-0.2.0-cli.jar
 
 正常结果写 stdout，错误 JSON 写 stderr。退出码：0 成功，1 参数/文件错误，2 SQL 语法错误。PARTIAL 摘要仍属于解析成功。
 
-## 146 个纯打印示例
 
-[独立 Maven 示例项目](examples/maven-consumer/README.md) 可直接在 IDEA 打开。运行 [DorisSqlParserTestMain.main](examples/maven-consumer/src/main/java/example/DorisSqlParserTestMain.java)，无需连接数据库，**不使用断言**，逐条打印 SQL、解析结果、字段、关联、错误和最后汇总。
-
-| 分类 | 数量 | 示例内容 |
-|---|---:|---|
-| DDL | 29 | 创建/修改/删除、列注释、分区分桶、索引、视图 |
-| DML | 16 | INSERT INTO/OVERWRITE、VALUES、UPDATE、DELETE |
-| QUERY | 30 | 单表、多表、函数、AS、分组、窗口、集合查询 |
-| CTE | 18 | WITH、多 CTE、CTE 列别名、嵌套与多层 AS |
-| ADVANCED | 23 | 更多表达式、子查询、复杂类型及关联 |
-| COMMAND | 10 | SHOW、SET、USE、管理命令 |
-| VERSION | 7 | 展示两套语法的接受/拒绝差异 |
-| INVALID | 8 | 故意错误，观察异常位置及继续运行 |
-| API | 5 | 多语句、拆分、表达式、语法树等接口 |
-
-在项目根目录运行（macOS/Linux）：
-
-```bash
-./mvnw install
-./mvnw -f examples/maven-consumer/pom.xml compile dependency:build-classpath -Dmdep.outputFile=target/classpath.txt
-java -cp "examples/maven-consumer/target/classes:$(cat examples/maven-consumer/target/classpath.txt)" example.DorisSqlParserTestMain
-```
-
-在 main 后面添加参数：
-
-```text
---version 2.1              只运行 Doris 2.1；4.0 / all 同理
---category CTE             只运行某一分类
---list                     只列出示例
---tree                     额外打印完整语法树
---sql "SELECT a AS b FROM t" 解析自己的 SQL 脚本
---help                     帮助
-```
-
-默认两套版本各运行 146 个示例。VERSION 和 INVALID 有意触发语法错误，打印报错不等于示例程序故障。Windows 推荐在 IDEA 运行 main；手动拼接 Java classpath 时分隔符用 `;`。
-
-## 版本选项和支持边界
+## 版本选项和支持
 
 | 模式 | 固定上游语法 | 说明 |
 |---|---|---|
@@ -584,7 +548,7 @@ System.out.println(parser40.version());
 
 默认选项都为 false。4.0 支持这两个选项，2.1 传入 true 会被明确拒绝。旧式模式下 `SELECT ... UNION ALL SELECT ... LIMIT 10` 的 LIMIT 属于右分支；4.0 ANSI 模式可以归属整个集合查询。因此应按查询层级取 LIMIT。
 
-其他边界：
+其他：
 
 - 不检查表/列/函数是否存在，不连接数据库，不执行 SQL，不验证权限、类型、引擎约束或业务结果。
 - 不展开 `*`、视图定义，不生成已经完成物理字段绑定的血缘。
@@ -592,29 +556,3 @@ System.out.println(parser40.version());
 - CTE 根据可见作用域从物理读表摘要中排除，查询结构仍保留 CTE 引用。
 - hint 保留原文，不验证其内部指令；不支持客户端 `DELIMITER` 命令。
 - 结果保留原文和语法树，完整 JSON 可能较大。接口输出可选择需要的字段组装 DTO；只做语法校验用 `checkSqlSyntax()`。
-
-## 测试与项目结构
-
-```bash
-./mvnw clean verify
-python3 scripts/verify-sources.py
-```
-
-当前自动化回归包含 **351 项 JUnit 执行**，覆盖两套语法、官方 SQL 语料、DDL/查询/INSERT 结构、错误位置、CLI 和边界场景。来源校验覆盖 **4 份 grammar + 125 份官方 SQL**。验证范围和复现方式见 [测试说明](docs/testing.md)。综合 main 是纯打印演示，与自动化断言测试分开。
-
-```text
-doris-sql-parser/
-├── pom.xml / mvnw / mvnw.cmd     构建配置与 Maven Wrapper
-├── src/main/antlr4/             两套固定版本的官方语法
-├── src/main/java/               Java API、结构提取、模型和 CLI
-├── src/test/                    自动化测试及官方 SQL 语料
-├── examples/maven-consumer/     独立 Maven 项目、146 个打印示例
-├── examples/queries.sql         CLI 多语句输入示例
-├── docs/                        结构化读取指南、测试说明
-├── scripts/verify-sources.py     上游来源哈希校验
-└── grammar-sources.json / LICENSE / NOTICE
-```
-
-语法文件保持上游原始字节，来源 tag、commit、路径、SHA-256 记录在 `grammar-sources.json`。两套语法统一由 ANTLR 4.13.1 生成；Doris 2.1 原工程使用 4.9.3，本项目通过回归验证使用范围，不声称生成器完全等价。
-
-API 设计参考 [superior-sql-parser](https://github.com/melin/superior-sql-parser)，独立解析封装参考 [Apache Doris](https://github.com/apache/doris) 的 `fe-sql-parser`。遵循 [Apache License 2.0](LICENSE)，来源声明见 [NOTICE](NOTICE)。本项目是独立工具，并非 Apache 官方发布件。
