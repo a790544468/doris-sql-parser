@@ -1,0 +1,7 @@
+Doris SQL Parser for Java
+
+Contains Apache Doris SQL grammars (Apache License 2.0), originally adapted from Apache Spark.
+See grammar-sources.json for pinned source revisions and hashes.
+API and metadata design reference: melin/superior-sql-parser, commit 744d23bb, Apache License 2.0.
+Standalone parsing design reference: apache/doris master fe-sql-parser.
+This is an independent project, not an Apache Software Foundation release.

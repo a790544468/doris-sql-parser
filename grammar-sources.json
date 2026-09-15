@@ -1,0 +1,34 @@
+[
+  {
+    "tag": "2.1.11-rc01",
+    "commit": "97b77e6cda6743e2bb4fcc6af45c613f12310461",
+    "source": "fe/fe-core/src/main/antlr4/org/apache/doris/nereids/DorisLexer.g4",
+    "path": "src/main/antlr4/io/github/dorisparser/antlr/v21/DorisLexer.g4",
+    "sha256": "d278cc055840c41a68609311ad667e454ac131daf5b304ae049e5e92c29a6f07",
+    "modifications": "none"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "commit": "97b77e6cda6743e2bb4fcc6af45c613f12310461",
+    "source": "fe/fe-core/src/main/antlr4/org/apache/doris/nereids/DorisParser.g4",
+    "path": "src/main/antlr4/io/github/dorisparser/antlr/v21/DorisParser.g4",
+    "sha256": "a8ddd288193a468ac61df758e488b4f7902fd368f6cfd84641bd9366ff64527a",
+    "modifications": "none"
+  },
+  {
+    "tag": "4.0.8",
+    "commit": "bc8ea1bac6d62d92cdebd2e3ac33cc668961ec36",
+    "source": "fe/fe-core/src/main/antlr4/org/apache/doris/nereids/DorisLexer.g4",
+    "path": "src/main/antlr4/io/github/dorisparser/antlr/v40/DorisLexer.g4",
+    "sha256": "ba12ac78f172b00399950f89efc532e9c41a6c2ba8eea3853197ab6c1fecafd3",
+    "modifications": "none"
+  },
+  {
+    "tag": "4.0.8",
+    "commit": "bc8ea1bac6d62d92cdebd2e3ac33cc668961ec36",
+    "source": "fe/fe-core/src/main/antlr4/org/apache/doris/nereids/DorisParser.g4",
+    "path": "src/main/antlr4/io/github/dorisparser/antlr/v40/DorisParser.g4",
+    "sha256": "279ed115949ae3b3062f40c1d29fc62aec8cfb5f95291030c4f9f7cfabaa99c0",
+    "modifications": "none"
+  }
+]

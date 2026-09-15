@@ -1,0 +1,877 @@
+[
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpch_sf0.1_p1/sql/q01.sql",
+    "resource": "tpch/q01.sql",
+    "sha256": "ad8d4eacd0a5ef340ac133dad83d763980701bf0da76a63f132a81c70941d08b",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpch_sf0.1_p1/sql/q02.sql",
+    "resource": "tpch/q02.sql",
+    "sha256": "254b40b41a8a732bb92b618edd7a4ee590e3df918a504c6ff503054db9505928",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpch_sf0.1_p1/sql/q03.sql",
+    "resource": "tpch/q03.sql",
+    "sha256": "6a995999c8e19fef186ed24a2d1ba79452d6ff6a31f560026a8becbe4ab773c2",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpch_sf0.1_p1/sql/q04.sql",
+    "resource": "tpch/q04.sql",
+    "sha256": "15e2a79cbcfd5285a06d652699d3f0ef320fea64b3943b2e3ace1c67459eb379",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpch_sf0.1_p1/sql/q05.sql",
+    "resource": "tpch/q05.sql",
+    "sha256": "fd0aa52e1e68e48659a5d185691dd07f91ee9f3583650f5806e104e576925da8",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpch_sf0.1_p1/sql/q06.sql",
+    "resource": "tpch/q06.sql",
+    "sha256": "758a5e4aa65333b842d2e6a40f387c2017e8440fd5fed904b56f36eb00425740",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpch_sf0.1_p1/sql/q07.sql",
+    "resource": "tpch/q07.sql",
+    "sha256": "7e725d5cb5b28457af3c060d2b4945aedd96379fb79276c5384eb31e49cca235",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpch_sf0.1_p1/sql/q08.sql",
+    "resource": "tpch/q08.sql",
+    "sha256": "2b00141250689e8dc72725f347e83cb487de7678ac537bdbfd960d62623c05dc",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpch_sf0.1_p1/sql/q09.sql",
+    "resource": "tpch/q09.sql",
+    "sha256": "d95631ab9df8019e3a22cab285f388855c95e9e8aca46dcbfa322ba5424fb164",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpch_sf0.1_p1/sql/q10.sql",
+    "resource": "tpch/q10.sql",
+    "sha256": "df262ce7b8cd8dedc320b9cc8cfa79fc41bdf37f230a1776a91789428a230b63",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpch_sf0.1_p1/sql/q11.sql",
+    "resource": "tpch/q11.sql",
+    "sha256": "b323a9206f5d802234426baba47e390df3522f13a64580c04e14615f1c7c22f8",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpch_sf0.1_p1/sql/q12.sql",
+    "resource": "tpch/q12.sql",
+    "sha256": "593b3831f241edd6fb1dd3462a74b4240c765d12a8a14bab18f0f6b07db823fe",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpch_sf0.1_p1/sql/q13.sql",
+    "resource": "tpch/q13.sql",
+    "sha256": "b49a5e367280c0bc639da02e1aa470fa74fc951d71789bf09e6017d96d335c55",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpch_sf0.1_p1/sql/q14.sql",
+    "resource": "tpch/q14.sql",
+    "sha256": "8001680f4f736a2afcc3230e26d8ed6e6110a9d102870967b3416e3223c56314",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpch_sf0.1_p1/sql/q15.sql",
+    "resource": "tpch/q15.sql",
+    "sha256": "c1c6950d5a1d16291297262dfb2177d59af2ea67f30bdd12f7807601316c4bbc",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpch_sf0.1_p1/sql/q16.sql",
+    "resource": "tpch/q16.sql",
+    "sha256": "8c80028367980ce7c1e377d705a508531346d49a55098a77f5c088c0219c3e9b",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpch_sf0.1_p1/sql/q17.sql",
+    "resource": "tpch/q17.sql",
+    "sha256": "fdf62d49eaf58f3ca71bdc217eb986efd41956dbb01ee1b34870030eaf50cb3f",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpch_sf0.1_p1/sql/q18.sql",
+    "resource": "tpch/q18.sql",
+    "sha256": "5471eb53327227e6314692be97650168aa3e6c1e083feae6dbd8cdd663421746",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpch_sf0.1_p1/sql/q19.sql",
+    "resource": "tpch/q19.sql",
+    "sha256": "c17c11a3cdbc2aaeefd5b53313b29446f16e495c3724ec6a123672391dc499bc",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpch_sf0.1_p1/sql/q20.sql",
+    "resource": "tpch/q20.sql",
+    "sha256": "86bcb982dcace187abbd7821b120a37bad233c6b5e2dc5d97384ddf6b1ce5e0e",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpch_sf0.1_p1/sql/q21.sql",
+    "resource": "tpch/q21.sql",
+    "sha256": "d6a65b52f610b47518aa993f778a90df063e3b56acc2d6dbfaf43b6f54d71f1a",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpch_sf0.1_p1/sql/q22.sql",
+    "resource": "tpch/q22.sql",
+    "sha256": "545356355b3ad03408578dc055d0c28cd261f8f0b3e72e873f69ef7e817844b1",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q01.sql",
+    "resource": "tpcds/q01.sql",
+    "sha256": "14a7155a0770081501b1536c297f4e39c942ff27ccffe5240cb98180a9489bef",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q02.sql",
+    "resource": "tpcds/q02.sql",
+    "sha256": "68b86689946538b9151ce1d997c4e57c0e25a00dd53ca97e06cf5518ab57d4f2",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q03.sql",
+    "resource": "tpcds/q03.sql",
+    "sha256": "b390e871627814d216a27a5171b89be513d63329f33513449bba713950585508",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q04.sql",
+    "resource": "tpcds/q04.sql",
+    "sha256": "b9da279f4486839a74845f1cbd02a6855b02a622862f3d42159fd56f4ffd90ad",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q05.sql",
+    "resource": "tpcds/q05.sql",
+    "sha256": "23647cfefa4ac4c8781b2c78407b295c336d1eef24610c33edfd589f3092a8e9",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q06.sql",
+    "resource": "tpcds/q06.sql",
+    "sha256": "70ec7068c637ad09deccd1160971859850a6fe0ccd273c3696f89823c0f097ab",
+    "expected": "syntax_error_line_27"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q07.sql",
+    "resource": "tpcds/q07.sql",
+    "sha256": "ea035e487c887b8311228f4b857b25449bbb3f3ecadee521c0331e90b0f2bf3e",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q08.sql",
+    "resource": "tpcds/q08.sql",
+    "sha256": "f6241df73a4012a47bb79a113a9cf5e3b3843de862dcdc700d7df7f43a5f5c0d",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q09.sql",
+    "resource": "tpcds/q09.sql",
+    "sha256": "9b9ccf7ce805762c8269e273d33144c9ce5510a9370fe8d71f77f051182c7776",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q10.sql",
+    "resource": "tpcds/q10.sql",
+    "sha256": "46dc4162e9646e8eb1f73b9d5c9f258e81228955b7fd0eda3913e5891d5c5243",
+    "expected": "empty_script"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q11.sql",
+    "resource": "tpcds/q11.sql",
+    "sha256": "6f38e27da4590c7bb615e6ac9ab39f92bf9fe62118ee408f3bf1899495c663eb",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q12.sql",
+    "resource": "tpcds/q12.sql",
+    "sha256": "e031d2e58f0fb0f3521283163fb9fd7d0ac5c02a360dc88e3b1ce6587d8f9401",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q13.sql",
+    "resource": "tpcds/q13.sql",
+    "sha256": "d72b1841b36804c074795f26eff92c2e96b765b61d3d5c448baa1eea21e250c8",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q14_1.sql",
+    "resource": "tpcds/q14_1.sql",
+    "sha256": "5d0e8a6df423eb3224b980c9fcfd7e4775a79e5d80e7bd6b6a1d1f665d873937",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q14_2.sql",
+    "resource": "tpcds/q14_2.sql",
+    "sha256": "1bd73474ccbf5509d9882329328853a5ab91682bce9abe6c62a1568f3a98d887",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q15.sql",
+    "resource": "tpcds/q15.sql",
+    "sha256": "397b2d05f2c535d897c588fd3f62223296239e5a107d38c45f379bb77da87f2c",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q16.sql",
+    "resource": "tpcds/q16.sql",
+    "sha256": "457e33fa2f5c4ba42a9adbd667ed67c4435343c2d5fa7343afbb38d65d97727a",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q17.sql",
+    "resource": "tpcds/q17.sql",
+    "sha256": "75e04812fdd317be0292458e4cfe530862d9ff8b4242db5faeaca131762e5f27",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q18.sql",
+    "resource": "tpcds/q18.sql",
+    "sha256": "f8be0ac00f3fe22303892bbd856a6c3d874115f0eda2ca8057e3ac7a3d65102e",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q19.sql",
+    "resource": "tpcds/q19.sql",
+    "sha256": "15d328fd58e707460394fc646f5c13e6e6c3af4faf438e9c23eb06f87f8754d5",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q20.sql",
+    "resource": "tpcds/q20.sql",
+    "sha256": "b5581e0cf5a5183ccfa826ede7fc1c616bb9a70514c1e504e03f81411530f4ce",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q21.sql",
+    "resource": "tpcds/q21.sql",
+    "sha256": "2247dcfe8f127eb2266573558d0b1b620f263b1e359beae3b9bbb85c4d3bcf32",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q22.sql",
+    "resource": "tpcds/q22.sql",
+    "sha256": "c5b1795870a2f542c6bb6d1103118a556c583abc0d1417ae9b419ee836b98ddc",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q23_1.sql",
+    "resource": "tpcds/q23_1.sql",
+    "sha256": "3f115a0a72fdb6987a1e0d11594dc8ae37b44c03050c7634810da92a79122c35",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q23_2.sql",
+    "resource": "tpcds/q23_2.sql",
+    "sha256": "22b1966235e68621fb45ff3b7a5b04c0c7cf54b4530a6cc697a5ffec0c195e51",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q24_1.sql",
+    "resource": "tpcds/q24_1.sql",
+    "sha256": "02c9e578baf5d8ea268a4159e340f206e1b1d25a6c6927fe1b3c26c4e1429241",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q24_2.sql",
+    "resource": "tpcds/q24_2.sql",
+    "sha256": "fa966f52769432c5a9151024c07dc50fe2a3b17c76ea11d7cc4d6d51a9a78479",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q25.sql",
+    "resource": "tpcds/q25.sql",
+    "sha256": "22169ee93b3b4827b92476610421446f8a507fcd0310a69658374e7d56974dff",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q26.sql",
+    "resource": "tpcds/q26.sql",
+    "sha256": "bc953f6ed41b9a14026bbb0847aeeecef0c0b83e19dd828d837762bc9f982e68",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q27.sql",
+    "resource": "tpcds/q27.sql",
+    "sha256": "bcce7b4a47ef14d9f4bb50de18c36c73a4c0b443ec70349e074538c50ca70e0a",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q28.sql",
+    "resource": "tpcds/q28.sql",
+    "sha256": "c3dbf21381ca1229193028b4c6459403f4dec3c684a4bb3974e858e34e8672dd",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q29.sql",
+    "resource": "tpcds/q29.sql",
+    "sha256": "9a41c9e8c84b73ff717d1b1f17bf3096b9d8e15edc9bb0c673515dd2659aa635",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q30.sql",
+    "resource": "tpcds/q30.sql",
+    "sha256": "53590f32c8aba5b23625f3f5a5a151927e0be929db1f2bbe1d28f97bbbac7a4f",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q31.sql",
+    "resource": "tpcds/q31.sql",
+    "sha256": "0634380afec21ca683cce3f06b14686eee319e11612780de1bccaaede7697e47",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q32.sql",
+    "resource": "tpcds/q32.sql",
+    "sha256": "1de5bfde4d05a0085c9f0ad6ba3d1670a79c84e60774ae058fb4575b7e785190",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q33.sql",
+    "resource": "tpcds/q33.sql",
+    "sha256": "c60d30210c5829c835b8fdaeecf77639fdd2bb836244b9a1c2abe035417ea877",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q34.sql",
+    "resource": "tpcds/q34.sql",
+    "sha256": "2f055fb78d33f676eec85da3a0aeb185d7f60d087eff114331a5b70efd6dda0e",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q35.sql",
+    "resource": "tpcds/q35.sql",
+    "sha256": "a39cd1d23d9449ec07215c37bfbd00744f47f8b1f2cddb506b25aff9c939c76f",
+    "expected": "empty_script"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q36.sql",
+    "resource": "tpcds/q36.sql",
+    "sha256": "e9a8d61f79fd648f1726afd7478eca5367d21b81d12afbada90f8adbf06b2586",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q37.sql",
+    "resource": "tpcds/q37.sql",
+    "sha256": "3b0b82d8deb4e88e805fd56995ff741e866aa4923c004a2b4b23606d3844783b",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q38.sql",
+    "resource": "tpcds/q38.sql",
+    "sha256": "c985a56efa0dbe1fc1e7dc042bb57cb47a249748ffad44436a5702e63b6441da",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q39_1.sql",
+    "resource": "tpcds/q39_1.sql",
+    "sha256": "ad8ebcd1264a34cb3b8d32c94595a81ccda8c8ffd6eb7a91cb2768ac34b1bcd1",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q39_2.sql",
+    "resource": "tpcds/q39_2.sql",
+    "sha256": "2dcbf3ce72026b0049ede9ba9cf282f1356ff31938c09ac89b65dbc359086531",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q40.sql",
+    "resource": "tpcds/q40.sql",
+    "sha256": "083201fbe32e179d02b69a065675e92f6ffebed6abe452dde5dc521c3d085eae",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q41.sql",
+    "resource": "tpcds/q41.sql",
+    "sha256": "816dc3b5db2f4911e347684ba524d15530f7f4447f0f4502609719cc2fc2e234",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q42.sql",
+    "resource": "tpcds/q42.sql",
+    "sha256": "a1bbae37a9f8cc94d19e5a3e9b7782c0964f28547fc69e794725404a416c4a75",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q43.sql",
+    "resource": "tpcds/q43.sql",
+    "sha256": "7d6985b72ea1adc5b711aa6e5e756d564cf957b58ebef3297ebbfce59469f703",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q44.sql",
+    "resource": "tpcds/q44.sql",
+    "sha256": "78df3b81a061f69af6b892dda0cf166574997459b38ce1f77b1942c61b3537d3",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q45.sql",
+    "resource": "tpcds/q45.sql",
+    "sha256": "2bad7218f7bc4754b34784d932a416a1033ac6c2b95e057ae04988213314c08c",
+    "expected": "empty_script"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q46.sql",
+    "resource": "tpcds/q46.sql",
+    "sha256": "871487c12cc8be7f923ed5eb83ed077aef1b3f1cdbea48dc808a8cb024c3cb0b",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q47.sql",
+    "resource": "tpcds/q47.sql",
+    "sha256": "ce32f6c424cb9fa2687c18f7b5eaf1e5ffc360919ee5cca90d6838e1f6793aed",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q48.sql",
+    "resource": "tpcds/q48.sql",
+    "sha256": "1d037ca0519ab76242aa3918663e1d38ac188f56d1f84cd297956d3e02e5d20a",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q49.sql",
+    "resource": "tpcds/q49.sql",
+    "sha256": "7fbf266eeccf138177bf68d20232786703222dcf256efe5850c7dbe0106aad0b",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q50.sql",
+    "resource": "tpcds/q50.sql",
+    "sha256": "659b158eb2e4435642bc806280470489af7cacf0437c48df138bd33353327709",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q51.sql",
+    "resource": "tpcds/q51.sql",
+    "sha256": "e289d211c5abeddeabde054ff0e777290c88f810a7795dd2a87eab95f02af2da",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q52.sql",
+    "resource": "tpcds/q52.sql",
+    "sha256": "d327c0d18c7e832bab7c197aa281fb7847e0a10b88193318c222a2cce6b25e68",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q53.sql",
+    "resource": "tpcds/q53.sql",
+    "sha256": "e9e36fe00574af1aa1d5604b09356c6cab2272465955f6324af9de81c8246cf0",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q54.sql",
+    "resource": "tpcds/q54.sql",
+    "sha256": "26465856ba8927542c0d3716bbed93a589c5099855547acd1e2d19fbdde0626f",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q55.sql",
+    "resource": "tpcds/q55.sql",
+    "sha256": "76cf6ad9838736b61161f4a6efe13c23f138bac384c4221b75fdcff441a16f62",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q56.sql",
+    "resource": "tpcds/q56.sql",
+    "sha256": "0d905260e4c25abdf232e795719a68ba9a46e7e81f327e9b9aae1ace021299c0",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q57.sql",
+    "resource": "tpcds/q57.sql",
+    "sha256": "86ecc6d9114feec44973a8eae1f7ae4b6569efd26bd6f2ec18e426cd0d1ed78e",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q58.sql",
+    "resource": "tpcds/q58.sql",
+    "sha256": "5aef9711bbee33bba501f6b2f2fd7415cd05e8737ea561a1181e9b304438f0bf",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q59.sql",
+    "resource": "tpcds/q59.sql",
+    "sha256": "943d2759006f05ffd31a66c62abb33164ffe1bdf63006776076472b78dfa3e75",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q60.sql",
+    "resource": "tpcds/q60.sql",
+    "sha256": "6b3a9700d71497b6f8037b9fa4a93bf98ba27e379f84efebfc12fecf3c3838d8",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q61.sql",
+    "resource": "tpcds/q61.sql",
+    "sha256": "b64a3d6d1734971526b0eca1c01818f4f8616b7349a45768dd8452a90b8d9c4e",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q62.sql",
+    "resource": "tpcds/q62.sql",
+    "sha256": "f8477b0f4fe47eeb7e4076898a1d7c744ffb41c5bf16f387d5d6d3f510fa7859",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q63.sql",
+    "resource": "tpcds/q63.sql",
+    "sha256": "a0b51c96338efb96f226fc85f71de00fae31a406ee72a825d0b8639c5aca6c86",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q64.sql",
+    "resource": "tpcds/q64.sql",
+    "sha256": "0159c69118b5a3392201b6129217f699f3855bf32dd2fb18bd2fc046df6c9a64",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q65.sql",
+    "resource": "tpcds/q65.sql",
+    "sha256": "c8480e25688b183c2daf9f40e58f7d1111284b1cb599a194ee82715b84b2b224",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q66.sql",
+    "resource": "tpcds/q66.sql",
+    "sha256": "07dfb0a07a305e16feac4ea3dcdf216e50c4672e2f4ca8290e9acfee6fd40869",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q67_ignore_temporarily.sql",
+    "resource": "tpcds/q67_ignore_temporarily.sql",
+    "sha256": "10dadd9b1ded530c22a7e174f27aca8736e57331cd9932df08c9e8a39f234f65",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q68.sql",
+    "resource": "tpcds/q68.sql",
+    "sha256": "5cd804a323afbd14915d0d9cdc7abe498b29443fbb04d9ca5615aba66e268919",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q69.sql",
+    "resource": "tpcds/q69.sql",
+    "sha256": "23694e21fcff985dcdf6c9d230d4f9ddfb725ac2654160239cb440dcb184ea54",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q70.sql",
+    "resource": "tpcds/q70.sql",
+    "sha256": "0d90ce82497d8d9f2f58dacab99446fa1d5f3756b9fe30eb7ed6485e8676460b",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q71.sql",
+    "resource": "tpcds/q71.sql",
+    "sha256": "49e640f0bb0b633c32d90036fc526f524fea8e617bb8db37c38575aa341018d6",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q72.sql",
+    "resource": "tpcds/q72.sql",
+    "sha256": "3804c956ae3ba73174e35309dd672758fe49a131a79d86cc15284e32067ec918",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q73.sql",
+    "resource": "tpcds/q73.sql",
+    "sha256": "0107300379d08a9ba4b99774330d7c966f4f168e5eb6e35b92159a61f95acef3",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q74.sql",
+    "resource": "tpcds/q74.sql",
+    "sha256": "53be2311ab7d72d1de007e009c4f8de7e907878d2031c4951ef43a10d060c43c",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q75.sql",
+    "resource": "tpcds/q75.sql",
+    "sha256": "0ce66f9f0942db24534643a717ffd5847c35de8305e7e026b7eee03cd67c1e8f",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q76.sql",
+    "resource": "tpcds/q76.sql",
+    "sha256": "bb44d2d40cef7a518b12b3937fd5b2efcb75ce1e5dc858362f1c656b15c7cd57",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q77.sql",
+    "resource": "tpcds/q77.sql",
+    "sha256": "13996a83e3de91674c5682dabbc9424a221b5c31acb2b556a5b60da928d32782",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q78.sql",
+    "resource": "tpcds/q78.sql",
+    "sha256": "8a959f87066dee6eeb3d99e205e72711ec49ec0cf11e41a8597feecb0e3ffe77",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q79.sql",
+    "resource": "tpcds/q79.sql",
+    "sha256": "4b3e62d2118d9834ff7c8318b23d4e9bb21e508eeff588f161da9463f84bfcd0",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q80.sql",
+    "resource": "tpcds/q80.sql",
+    "sha256": "3cf33f04f78860d3725ca88404845a264ffd6311c549f3d667f534a1eafd98d6",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q81.sql",
+    "resource": "tpcds/q81.sql",
+    "sha256": "b5fa6f2181cf75646cbf1d19107a112c9b10386ceaa8ec835b896f507f12cd92",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q82.sql",
+    "resource": "tpcds/q82.sql",
+    "sha256": "75e39ccb32b1511cf89f56d52565eee53c0853024dd1b685ec39c037291b13e1",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q83.sql",
+    "resource": "tpcds/q83.sql",
+    "sha256": "5b8651dbe8a516c7f19239a963c704fc0dfa1969188e248bc1945baf5cc8daff",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q84.sql",
+    "resource": "tpcds/q84.sql",
+    "sha256": "f836155e18ef5b1ca9c23217475575d145e2391cb9e8d8c4dab3b0aa9bb10443",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q85.sql",
+    "resource": "tpcds/q85.sql",
+    "sha256": "8d70a3610c9605a9e9f9bd138adda3390711e8dc808a19f6f1c34c23a0c1e67d",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q86.sql",
+    "resource": "tpcds/q86.sql",
+    "sha256": "872bc295a837c967cf5c1c1424d1f7863961691653eaf23d2d1758071e472feb",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q87.sql",
+    "resource": "tpcds/q87.sql",
+    "sha256": "b9cebd5f3fd0e358019d921393885d6d817f644e72aa6cc5e925b1409d7edff5",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q88.sql",
+    "resource": "tpcds/q88.sql",
+    "sha256": "1abf16fa3da6a4ffb8568c64f78e9dc2479f1fad64ba5f2baf718dfb0e1bc063",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q89.sql",
+    "resource": "tpcds/q89.sql",
+    "sha256": "64703021af223694556149e4c2ef4b6759e54473cfd0c3bd1f753ed21c3f41e6",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q90.sql",
+    "resource": "tpcds/q90.sql",
+    "sha256": "7b0e3806fd7da45ee04aa4cebf345c0e65e74c2a2d4518f2bf3e8a490c9498f5",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q91.sql",
+    "resource": "tpcds/q91.sql",
+    "sha256": "197f7e4ec95a4b807ddac37e3ee1726a493a1d2f8a8f22615668f6dd19a375e6",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q92.sql",
+    "resource": "tpcds/q92.sql",
+    "sha256": "3238801ed7e15b7638373aecea933f139da7465c58c63dc5738c1465af479c3a",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q93.sql",
+    "resource": "tpcds/q93.sql",
+    "sha256": "225ac20eb14bf20d5195795b15ed31f539c116a9824cb7957b152d794613d96b",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q94.sql",
+    "resource": "tpcds/q94.sql",
+    "sha256": "c90a6d962d3306324d20e5d52af6953d6eefc235eb7f820624e0a59755ced017",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q95.sql",
+    "resource": "tpcds/q95.sql",
+    "sha256": "c30ff0c8dff4c58826e95047928f9972ce582942691700f23230ae5d75ef309e",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q96.sql",
+    "resource": "tpcds/q96.sql",
+    "sha256": "bca7e757eb11d5b224a66d67fb84eee22ca49bb200e0c162f39485583a8615cf",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q97.sql",
+    "resource": "tpcds/q97.sql",
+    "sha256": "d657c3e815175cdcbf88e72decebf397cd1d19e536621f2663cfb4ffdafeaf15",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q98.sql",
+    "resource": "tpcds/q98.sql",
+    "sha256": "d5409a476d572f1910dc879050e02ba7a19972f948a5b6937bdc9d44e2db6fbb",
+    "expected": "valid_query"
+  },
+  {
+    "tag": "2.1.11-rc01",
+    "source": "regression-test/suites/tpcds_sf1000_p2/sql/q99.sql",
+    "resource": "tpcds/q99.sql",
+    "sha256": "ebd014bfd58c9986e26d99cc51907b6c721a2094e3865b0aa43878028e3a36ad",
+    "expected": "valid_query"
+  }
+]
