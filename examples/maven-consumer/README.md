@@ -2,6 +2,10 @@
 
 这是实际引用 `io.github.dorisparser:doris-sql-parser:0.2.0` 的独立项目。包含 [DorisSqlParserTestMain.java](src/main/java/example/DorisSqlParserTestMain.java)：146 个示例，逐条打印，不使用断言，不连接数据库。
 
+## 只想看来源表、结果表、字段对应和公式
+
+运行 [InsertLineagePrintMain.java](src/main/java/example/InsertLineagePrintMain.java) 的 `main`。默认就是复杂 INSERT，输出约 37 行；也可以调用 `InsertLineagePrintMain.print(parser.parseStatement(sqlText))`。具体运行方式、实际输出和追踪范围见 [简洁打印示例](LINEAGE_EXAMPLE.md)。
+
 ## IDEA 运行
 
 1. 在解析器根目录执行 `./mvnw clean install`，先安装本地 JAR 和 POM。

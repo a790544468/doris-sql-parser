@@ -388,6 +388,12 @@ VALUES 逐行读取 `insert.query().valuesRows()`；UNION/VALUES 的同一目标
 
 省略目标列、投影含 `*`、来源宽度不一致时，`columnMappings()` 为空，`unresolvedReasons()` 说明原因。这里的映射是显式语法位置对应，不是已绑定物理字段的血缘。
 
+### 只打印来源表、结果表、列对应和公式
+
+运行 [InsertLineagePrintMain.java](examples/maven-consumer/src/main/java/example/InsertLineagePrintMain.java) 的 `main`：内置下方复杂 SQL，输出约 37 行，不打印语法树。已有 `sqlText` 时可调用 `example.InsertLineagePrintMain.print(parser.parseStatement(sqlText))`。示例代码需要放入你的项目或打开独立示例项目，它不是库 JAR 内的类。
+
+它在示例层进一步追踪子查询和别名，能展开输出明确的 `x.*`；核心解析器仍保留原来的通配符和未解析原因。查看 [实际打印结果与使用方法](examples/maven-consumer/LINEAGE_EXAMPLE.md)。
+
 ### 复杂 INSERT SELECT 可以解析吗？
 
 可以组合多表、JOIN、多层 AS 子查询、CASE WHEN、EXISTS、IN 和 `*`。[完整复杂 SQL](examples/complex-insert.sql) 同时包含这些结构，已在 2.1 / 4.0 两套语法运行：
